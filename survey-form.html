@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="survey.css"/>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description" class="description">Thank you for taking the time to help us improve the platform
+<form id="survey-form">
+    <fieldset>
+      <br>
+      <label for="name" id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required class="infoinputs"/>
+
+      <label for="email" id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required class="infoinputs"/>
+
+      <label for="age" id="number-label">Age <p class="age">(optional)</p><input id="number" type="number" placeholder="Enter your age" class="infoinputs" min="13" max="100"/>
+
+      <label >Which option best describes your current role?
+        <select class="selects" id="dropdown">
+          <option>Select current role</option>
+          <option>Student</option>
+          <option>Part-time job</option>
+          <option>Full-time job</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label class="recommendlabel">Would you recommend freeCodeCamp to a friend?</label>
+      <input type="radio" class="recommend" id="yes" name="yes-no-maybe" value="yes"><label class="recommendlabels" for="yes">Yes</label><br><br>
+      <input type="radio" class="recommend" id="no"name="yes-no-maybe" value="no"><label class="recommendlabels" for="no">No</label><br><br>
+      <input type="radio" class="recommend" id="maybe" name="yes-no-maybe" value="maybe"><label class="recommendlabels" for="maybe">Maybe</label>
+    </fieldset>
+    <fieldset>
+      <label>What is your favourite feature of freeCodeCamp?
+        <select class="selects">
+          <option>Select an option</option>
+          <option>Challenges</option>
+          <option>Projects</option>
+          <option>Community</option>
+          <option>Open Source</option>
+        </select>
+    </fieldset>
+    <fieldset>
+      <label class="improvelabel">What would you like to see improve? <p class="age">(Check all that apply)</p></label >
+      <label class="improvelabels">
+      <input type="checkbox" class="improve" value="front-end"/>Front-end Projects
+    </label>
+      <label class="improvelabels">
+      <input type="checkbox" class="improve" value="back-end"/>Back-end Projects
+    </label>
+      <label class="improvelabels">
+      <input type="checkbox" class="improve" value="data-visualisations"/>Data Visualisations
+    </label>
+      <label class="improvelabels" value="challenges">
+      <input type="checkbox" class="improve" value="challenges"/>Challenges
+    </label>
+      <label class="improvelabels">
+      <input type="checkbox" class="improve" value="wiki"/>Wiki
+    </label>
+    </fieldset>
+    <fieldset>
+      <label class="commentlabel">Any comments or suggestions?</label>
+      <textarea placeholder="Enter your comments here"></textarea>
+    </fieldset>
+    <fieldset>
+    <input type="submit"/>
+    </fieldset>
+  </form>
+  </body>
+  </html>
