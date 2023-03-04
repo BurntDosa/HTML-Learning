@@ -1,10 +1,10 @@
 # HTML and CSS 
 
-All the files for the projects coded by me for the free certification course by freeCodeCamp
+All the files for the projects coded by me for the free certification course by freeCodeCamp.
 
 ## Getting Started
 
-To run the html and css files on your own system just follow the step below.
+To run the HTML and CSS files on your own system just follow the step below.
 
 Enter terminal and copy-paste "git clone https://github.com/BurntDosa/HTML-Learning"
 If above instruction do not work, check if git is installed on your system.
